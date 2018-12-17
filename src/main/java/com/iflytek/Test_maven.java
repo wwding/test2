@@ -22,7 +22,7 @@ public class Test_maven {
         System.out.println("我在修改文件，ignored files 发现了");
         System.out.println("我又修改了一行代码");
         System.out.println("wwding@iflytek.com");
-        System.out.println("............");
+        System.out.println("..................");
         String jsonString = JSONObject.toJSONString(map);
         System.out.println(jsonString);
     }
