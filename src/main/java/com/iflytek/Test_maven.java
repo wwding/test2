@@ -23,6 +23,7 @@ public class Test_maven {
         System.out.println("我又修改了一行代码");
         System.out.println("wwding@iflytek.com");
         System.out.println("..................");
+        System.out.println("我又重新设置了局部签名");
         String jsonString = JSONObject.toJSONString(map);
         System.out.println(jsonString);
     }
