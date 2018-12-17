@@ -24,6 +24,7 @@ public class Test_maven {
         System.out.println("wwding@iflytek.com");
         System.out.println("..................");
         System.out.println("我又重新设置了局部签名");
+        System.out.println("现在更改了全局变量");
         String jsonString = JSONObject.toJSONString(map);
         System.out.println(jsonString);
     }
