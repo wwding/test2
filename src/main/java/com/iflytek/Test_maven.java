@@ -17,7 +17,7 @@ public class Test_maven {
        map.put("ID",bb);
        map.put("user",cc);
         System.out.println();
-        System.out.println("我不是克隆");
+        System.out.println("我是克隆");
         System.out.println("我在修改文件，ignored files 发现了");
         System.out.println("我又修改了一行代码");
         String jsonString = JSONObject.toJSONString(map);
