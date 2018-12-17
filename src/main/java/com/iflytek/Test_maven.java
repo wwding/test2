@@ -16,6 +16,7 @@ public class Test_maven {
         map.put("name",aa);
        map.put("ID",bb);
        map.put("user",cc);
+        System.out.println("我在修改文件，ignored files 发现了");
         String jsonString = JSONObject.toJSONString(map);
         System.out.println(jsonString);
     }
